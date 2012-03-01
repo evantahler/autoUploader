@@ -1,14 +1,14 @@
 exports.config = {
 	
-	sourceDirectory: "/Users/evantahler/Desktop/source/",
-	destinationDirectory: "/Users/evantahler/Desktop/dest/",
+	sourceDirectory: "~/Desktop/source/",
+	destinationDirectory: "~/Desktop/dest/",
 	
-	uploadHost: "warhol.evantahler.com",
+	uploadHost: "myapp.example.com",
 	uploadPath: "/upload.php",
 	uploadPort: 80,
 	uploadFileFieldName: "file",
 	
-	metadataFile: false,
+	metadataFile: true,
 	metadataFileExtension: ".json",
 	
 	additionalUploadParams: {
