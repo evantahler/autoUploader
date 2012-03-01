@@ -1,0 +1,21 @@
+{
+  "author": "Evan Tahler <evantahler@gmail.com>",
+  "name": "autoUploader",
+  "description": "autoUploader will monitor a local folder, and then upload files which appear there",
+  "version": "0.1.0",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "main": "./autoUploader.js",
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "dependencies": {
+    "request":"2.x.x",
+    "colors":"0.x.x"
+	},
+  "devDependencies": { },
+  "scripts": { }
+}
