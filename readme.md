@@ -7,31 +7,31 @@ I will monitor a directory and upload files from it.  I do this by POST-ing file
 
 ## Configuration Values
 - sourceDirectory: (string) The folder to be monitored
-  -- IE: "/Users/evantahler/Desktop/source/"
+  - IE: "/Users/evantahler/Desktop/source/"
 - destinationDirectory: (string) If I am set, I will move uploaded files to this new directory after a successful upload.
- -- IE: "/Users/evantahler/Desktop/dest/"
+ - IE: "/Users/evantahler/Desktop/dest/"
 - uploadHost: (string) The base URL of the upload server
- -- IE: "mysweetserver.example.com"
+ - IE: "mysweetserver.example.com"
 - uploadPath: (string) The "page" to upload to on the uploadHost
- -- IE: "/upload.php"
+ - IE: "/upload.php"
 - uploadPort: (integer) The port to POST to on the uploadHost
-  -- IE: 80
+  - IE: 80
 -- uploadFileFieldName (sting) the field name that is used to uplaod the file
-  -- IE: "file"
+  - IE: "file"
 - metadataFile: (boolean) If I am true, I will not upload a file unless its corresponding metadata file is present.
-  -- IE: true
+  - IE: true
 - metadataFileExtension: (string) The file extension expected for metadata files
-  -- IE: ".json"
+  - IE: ".json"
 - additionalUploadParams: (object) If there are any additional data fields that need to accompany an upload, put them here 
-  -- IE: { password: "secret" }
+  - IE: { password: "secret" }
 - checkCycleTime: (integer) How often to check sourceDirectory for new files
-  -- IE: 5000
+  - IE: 5000
 - logFolder: (string) where to keep the application's Log
-  -- IE: "./log/"
+  - IE: "./log/"
 - logFile: (string) the name of the application's log file
-  -- IE: "autoUploader.log"
+  - IE: "autoUploader.log"
 - maxLogFileSize: (integer) the largest the log file can get in bytes.  It will be deleted and started over if it gets to large
-  -- IE: 100000
+  - IE: 100000
 
 ## Notes
 - Metadata files should be in the JSON format, and end with .json

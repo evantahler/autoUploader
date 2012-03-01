@@ -3,10 +3,10 @@
   "name": "autoUploader",
   "description": "autoUploader will monitor a local folder, and then upload files which appear there",
   "version": "0.1.0",
-  "homepage": "",
+  "homepage": "https://github.com/evantahler/autoUploader",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git://github.com/evantahler/autoUploader.git"
   },
   "main": "./autoUploader.js",
   "engines": {
