@@ -16,7 +16,7 @@ I will monitor a directory and upload files from it.  I do this by POST-ing file
  - IE: "/upload.php"
 - uploadPort: (integer) The port to POST to on the uploadHost
   - IE: 80
--- uploadFileFieldName (sting) the field name that is used to uplaod the file
+- uploadFileFieldName (sting) the field name that is used to uplaod the file
   - IE: "file"
 - metadataFile: (boolean) If I am true, I will not upload a file unless its corresponding metadata file is present.
   - IE: true
