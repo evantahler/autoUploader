@@ -71,6 +71,11 @@ exports.upload = function(AU, filename, metadata, next){
 		});
 		
 	  });
+   	post_request.on("error", function(e){
+		AU.log("Connection Error: "+e, "red");
+		next(resp);
+	});
+	  
 	  for (var i = 0; i < post_data.length; i++) {
 	    post_request.write(post_data[i]);
 	  }

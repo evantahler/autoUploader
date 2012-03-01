@@ -2,4 +2,5 @@ log/*
 cache/*
 node_modules/*
 .DS_Store
+.svn
 npm-debug.log

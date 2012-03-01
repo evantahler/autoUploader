@@ -40,6 +40,7 @@ AU.loop = function(AU){
 					}
 				}catch(e){
 					AU.log("  Metadata file not present; expecting '"+metadataFile+"'; ignoring");
+					loopCleanup();
 				}
 			}else{
 				toUpload = true;
@@ -71,6 +72,7 @@ AU.loop = function(AU){
 						}
 					}catch (e){
 						AU.log("  Error Uploading: "+e , ["red", "bold"])
+						AU.log(resp);
 						loopCleanup();
 					}
 				})
