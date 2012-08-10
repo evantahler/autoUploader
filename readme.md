@@ -1,5 +1,7 @@
 # autoUploader
 
+[![Endore Me](http://api.coderwall.com/evantahler/endorsecount.png)](http://coderwall.com/evantahler)
+
 I will monitor a directory and upload files from it.  I do this by POST-ing files to the remote server (as if I was a web form).  I can also look for metadata files in this directory and add POST information from them along with the file.  
 
 ## Requirements
